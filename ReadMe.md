@@ -11,10 +11,10 @@ Challenges within each section are meant to be solved in order.
 1.  Print the path of your working directory `pwd`
 1.  List the files in your working directory `ls -la`
 1.  List the files with a particular extension, like `ls *.txt`
-1.  List the files in a subdirectory, like `project`
-1.  Navigate to a subdirectory, like `project`
-1.  Navigate to the parent directory of your working directory
-1.  Navigate to a nested subdirectory, like `path/to/project`
+1.  List the files in a subdirectory, like `ls **/*`
+1.  Navigate to a subdirectory, like `cd makeSchool/core/`
+1.  Navigate to the parent directory of your working directory `cd ..`
+1.  Navigate to a nested subdirectory, like `cd Desktop/makeSchool/core/Core-Unix-Utilities/Animals/`
 1.  Navigate to your home directory
 1.  Navigate back to the previous directory
 
