@@ -8,9 +8,9 @@ Challenges within each section are meant to be solved in order.
 
 ### Navigation
 
-1.  Print the path of your working directory
-1.  List the files in your working directory
-1.  List the files with a particular extension, like `.txt`
+1.  Print the path of your working directory `pwd`
+1.  List the files in your working directory `ls -la`
+1.  List the files with a particular extension, like `ls *.txt`
 1.  List the files in a subdirectory, like `project`
 1.  Navigate to a subdirectory, like `project`
 1.  Navigate to the parent directory of your working directory
