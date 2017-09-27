@@ -29,8 +29,10 @@ Challenges within each section are meant to be solved in order.
 
 ### Variables
 
-1.  Print a sentence, like `Hello world`
+1.  Print a sentence, like
+    - `print "Hello world"`
 1.  Print a variable value, like `$USER` or `$PATH`
+    - `echo $newVar`
 1.  Set a variable `NAME` equal to your first name, then print its value
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
 1.  Print all environment variables (names and values)
