@@ -67,12 +67,16 @@ Challenges within each section are meant to be solved in order.
 1.  Make an alias named `gocode` that navigates to your code directory
     - `alias gocode=/Users/djchai/Desktop/makeSchool/core`
 1.  Print all aliases (names and values)
+    - `zsh alias`
 
 ### Getting Help
 
 1.  Print what options a command accepts, like `bash` or `python`
+    - `zsh setopt` `bash shopt -p`
 1.  Read the manual for a command, like `echo` or `ls`
+    - `man echo` `man ls`
 1.  Print the file path to a command, like `bash` or `python`
+    - ``
 
 ### Files
 
@@ -90,19 +94,23 @@ Challenges within each section are meant to be solved in order.
     - `cat Dogs.txt >> BabyDogs.txt`
     - `cp Dogs.txt BabyDogs.txt`
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
-    - `rm BabyDogs.txt Puppies.txt`
+    - `mv BabyDogs.txt Puppies.txt`
 1.  Make a new directory named `Shelter` inside `Animals`
+    - `mkdir Shelter`
 1.  Move the file `Puppies.txt` into the directory `Shelter`
-    - `mv Puppies.txt Shelter/`
+    - `mv Puppies.txt Shelter`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
     - `cp Cats.txt Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
+    - `ls Shelter`
 1.  Count the words in all `.txt` files inside `Shelter`
     - `wc /Shelter*.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
     - `rmdir Shelter/`
 1.  Remove all `.txt` files inside `Shelter`
+    - `rm Shelter/*.txt`
 1.  Remove the directory `Shelter` (this should succeed)
+    - `rmdir Shelter`
 1.  Now cry because you just deleted those poor tiny animals
 
 ### Permissions
