@@ -180,9 +180,9 @@ Challenges within each section are meant to be solved in order.
 ### Search
 
 1.  Find the file named `Cats.txt` in the directory `Animals`
-    -
+    - `find Animals/Cats.txt`
 1.  Find all files ending with `.py` in your code directory
-    -
+    - `find *.py`
 1.  Find all files larger than 100 MB in your movies directory
     -
 1.  Find all lines containing the word `one` in the file `numbers.txt`
