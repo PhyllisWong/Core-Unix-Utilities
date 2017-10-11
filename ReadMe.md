@@ -184,7 +184,7 @@ Challenges within each section are meant to be solved in order.
 1.  Find all files ending with `.py` in your code directory
     - `find *.py`
 1.  Find all files larger than 100 MB in your movies directory
-    -
+    - `cd /Users/djchai/Movies` then `find . -type f -size +100M`
 1.  Find all lines containing the word `one` in the file `numbers.txt`
     -
 1.  Find all lines containing the letter `e` at least 3 times in the file `numbers.txt`
