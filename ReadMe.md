@@ -163,19 +163,19 @@ Challenges within each section are meant to be solved in order.
 1.  Sort all lines in the file `numbers.txt`
     - `sort numbers.txt`
 1.  Print the first 2 characters of each line in `numbers.txt`
-    -
+    - `cut -c-2 numbers.txt`
 1.  Print only characters 9-16 of each line in `numbers.txt`
-    -
+    - `cut -c 9-16 numbers.txt`
 1.  Sort the first 2 characters of each line in `numbers.txt`
-    -
+    - `sort -k 1,2 numbers.txt`
 1.  Print only the unique first 2 characters of each line in `numbers.txt`
-    -
+    - `sort -u numbers.txt | cut -c1-2`
 1.  Replace all `o`s with `0`s in file `test.txt`
-    -
+    - zsh `sed -i '' -- 's/o/0/g' test.txt`
 1.  Capitalize all letters in the file `test.txt`
-    -
+    - `tr '[a-z]' '[A-Z]' < test.txt`
 1.  Capitalize all letters in the string `Hello world`
-    -
+    - `tr 'Hello World' 'HELLO WORLD' < test.txt`
 
 ### Search
 
