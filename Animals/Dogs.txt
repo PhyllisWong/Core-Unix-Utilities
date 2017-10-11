@@ -1,11 +1,5 @@
-Dog Super Hero Team
-
-Old Yeller
-Cujo
-Lassie
-Rin Tin Tin
-Hooch
-Bo
-
-Don't buy a cat.
-Dogs are way cooler.
+total 0
+-rw-r--r--  1 djchai  staff   0 Oct 11 12:21 Cats.txt
+-rw-r--r--  1 djchai  staff   0 Oct 11 12:21 Dogs.txt
+-rw-r--r--  1 djchai  staff   0 Oct 11 12:21 Ducks.txt
+drwxr-xr-x  2 djchai  staff  68 Oct 11 11:16 Shelter2
