@@ -32,38 +32,40 @@ Challenges within each section are meant to be solved in order.
 1.  Print the path of your working directory
     - `pwd`
 1.  List the files in your working directory
-    - `ls -la`
+    - `ls -la` `ls` `ls .`
 1.  List the files with a particular extension, like
     - `ls *.txt`
-1.  List the files in a subdirectory, like
-    - `ls **/*`
-1.  Navigate to a subdirectory, like
+1.  List the files in a subdirectory, like Animals
+    - `ls ./Animals` `ls Animals` `ls */*` `ls **/*`
+1.  Navigate to a subdirectory, like Animals
     - `cd makeSchool/core/`
 1.  Navigate to the parent directory of your working directory
-    - `cd ..`
-1.  Navigate to a nested subdirectory, like
+    - `cd ..` `cd ./..`
+1.  Navigate to a nested subdirectory, like Animals
     - `cd Desktop/makeSchool/core/Core-Unix-Utilities/Animals/`
 1.  Navigate to your home directory
-    -   `cd ~`
+    -   `cd ~` `cd`
 1.  Navigate back to the previous directory
     - `cd -`
 
 ### Variables
 
 1.  Print a sentence, like
-    - `print "Hello world"`
+    - zsh - `print "Hello world"` bash - `echo "Hello World"`
 1.  Print a variable value, like `$USER` or `$PATH`
     - `echo $newVar`
 1.  Set a variable `NAME` equal to your first name, then print its value
-    - `myName="Phyllis"`
-    - `echo $myName`
+    - `NAME="Phyllis"`
+    - `echo $NAME`
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
-    - `myFullName="Phyllis Wong"`
-    - `echo $myFullName`
+    - `FULL_NAME="Phyllis Wong"`
+    - `echo $FULL_NAME`
 1.  Print all environment variables (names and values)
-    - `printenv`
+    - `printenv` `compgen -v` `env`
 1.  Make an alias named `hello` that prints `Hello world`
+    - `alias hello="Hello World"`
 1.  Make an alias named `gocode` that navigates to your code directory
+    - `alias gocode=/Users/djchai/Desktop/makeSchool/core`
 1.  Print all aliases (names and values)
 
 ### Getting Help
@@ -75,18 +77,30 @@ Challenges within each section are meant to be solved in order.
 ### Files
 
 1.  Navigate to the directory `Animals`
+    - `cd Animals`
 1.  Print the contents of the file `Cats.txt`
+    - `cat Cats.txt`
 1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
+    - `cat Cats.txt Dogs.txt`
 1.  Count the words in the file `Cats.txt`
+    - `wc Cats.txt`
 1.  Count the words in all files with the extension `.txt`
+    - `wc *.txt`
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
+    - `cat Dogs.txt >> BabyDogs.txt`
+    - `cp Dogs.txt BabyDogs.txt`
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
+    - `rm BabyDogs.txt Puppies.txt`
 1.  Make a new directory named `Shelter` inside `Animals`
 1.  Move the file `Puppies.txt` into the directory `Shelter`
+    - `mv Puppies.txt Shelter/`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
+    - `cp Cats.txt Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
 1.  Count the words in all `.txt` files inside `Shelter`
+    - `wc /Shelter*.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
+    - `rmdir Shelter/`
 1.  Remove all `.txt` files inside `Shelter`
 1.  Remove the directory `Shelter` (this should succeed)
 1.  Now cry because you just deleted those poor tiny animals
